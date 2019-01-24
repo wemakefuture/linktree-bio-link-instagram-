@@ -1,0 +1,317 @@
+body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input, textarea, select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Global */
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+
+	background-color: #ffffff;
+	color: #333333;
+	margin: 35px 10px 40px 10px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  height:  auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*.container {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}*/
+
+/* Header */
+
+.prof-pic {
+	margin-top: 20px;
+  margin-bottom: 2%;
+  border-radius:  50%;
+  width: 120px;
+}
+
+.user-name {
+  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-name a {
+   color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Karla', Helvetica, sans-serif;
+}
+
+.user-name a:hover {
+  color: #000;
+}
+
+/* Links */
+
+@media(max-width: 600px) {
+    .link {
+        padding: 5px 15px;
+        font-size: 85% !important;
+    }
+}
+
+/* Footer */
+
+footer img {
+  width: 150px;
+    padding-top: 40px;
+}
+
+}
+.footer-social-icons {
+	  display:inline-block;
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+		align-items: center;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+	  display:inline-block;
+		margin: auto;
+    margin-top: 10%;
+		text-align:center;
+}
+.social-icons li {
+	  display:inline-block;
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+	  margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+		text-align:center;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #aaa;
+}
+.fa-facebook:hover {
+    background-color: #000;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #aaa;
+}
+.fa-linkedin:hover {
+    background-color: #000;
+}
+
+.fa-whatsapp {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #aaa;
+}
+.fa-whatsapp:hover {
+    background-color: #000;
+}
+
+
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+/* These just style the content */
+article {
+/*  just a fancy border  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(255, 255, 255, 0.8);
+  margin: 10px;
+}
+
+/* color coeds
+212829
+F3E8E5
+669AB0
+25BAC3
+1CA1AB
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  font-family: 'Oswald', Arial, Helvetica;
+  letter-spacing: 0.075em;
+  text-align: center;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto -10px;
+}
+
+.image-cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+h1,
+h2,
+h2 a {
+  color: #bbb;
+  font-size: 1rem;
+  font-weight: 200;
+  border-color: transparent;
+  line-height: 1.25;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+h1 {
+  color: #000;
+  font-size: 1.25rem;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+.links {
+  width: 100%;
+  max-width: 414px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.links .link {
+  display: block;
+  width: 100%;
+  margin: 0 auto 10px;
+  color: #fff;
+  border: 2px solid #aaa;
+  background-color: #aaa;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+.links .link:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
